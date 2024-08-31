@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    height: 452px;
+    width: 363px;
+  }
+
+  .dashboard-flex {
+    display: flex;
+  }
+  
+  .wallet-balance,
+  .referral,
+  .referral-stats,
+  .cards-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  .wallet-balance {
+    display: flex;
+    justify-content: space-between;
+    color: #3C517C;
+  }
+  .wallet-balance h2 {
+    margin-bottom: 10px;
+  }
+
+  .referral {
+    color: #3C517C;
+  }
+  
+  .referral-stats {
+    display: flex;
+    color: #3C517C;
+  }
+  .fund-wallet {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .referral-actions button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-left: -10px;
+    color: #4169E1;
+    
+  }
+
+  .referral-actions svg {
+    margin-bottom: -6px;
+  }
+  
+  .cashout-button {
+    background-color: white;
+    color: #4169E1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+  }
+
+  .cashout-button svg {
+    margin-bottom: -2px;
+  }
+  .cards-info{
+    height: 230px;
+    width: 404px;
+    background-image: url("../styles/Credit-Card.png") ;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-color: #EFF3FB;
+    color: #3C517C;
+    
+  }
+
+  .cards-info p {
+    margin-top: 40px;
+    margin-left: 20px;
+    
+  }
+
+  .cards-info h3 {
+    margin-left: 20px;
+  }
+  .cards-info span {
+    color: #6882B6;
+  }

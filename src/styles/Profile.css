@@ -1,0 +1,148 @@
+.profile-container {
+    padding: 20px;
+    display: flex;
+  }
+  
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-right {
+   margin-left: 20px;
+  }
+  
+  .profile-image-upload {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    height: 170px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Inter;
+  }
+  .profile-image-upload svg {
+    margin-bottom: -4px;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .upload-button {
+    display: block;
+    margin: 10px auto;
+    background: none;
+    color: #4169E1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: left; */
+    justify-content: space-between;    
+  }
+  
+  .profile-details p {
+    margin: 10px 0;
+    font-family: Inter;
+    font-weight: 400;
+    color: #4C689E;
+  }
+  
+  .status-active {
+    color: green;
+  }
+  
+  .edit-details-button {
+    margin-top: 20px;
+    background: none;
+    color: #4169E1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 600;
+  }
+  
+  .profile-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+  
+  .profile-tabs button {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    
+  }
+
+  .tab-button {
+    flex: 1;
+    background-color: #f1f1f1;
+    
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+    color: #3C517C;
+  }
+  
+  .tab-button.active {
+    background-color: #ffffff;
+  }
+  
+  .change-password-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  .change-password-form form{
+    border: none;
+  }
+  .change-password-form form .input-group{
+    background: none;
+
+    /* border: none; */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    /* background: none; */
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    /* background: none; */
+  }
+  
+  .input-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

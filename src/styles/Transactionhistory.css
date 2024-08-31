@@ -1,0 +1,103 @@
+.transaction-flex {
+    display: flex;
+}
+.transaction-history-container {
+    padding: 20px;
+    margin-left: -20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    color: #2B3B5A;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .filter-button {
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  .table-container .filter-button svg{
+    margin-bottom: -3px;
+  }
+  .table-container .filter-button {
+    width: 150px;
+    text-align: start;
+    color: #6882B6;
+    background-color: #D7E1F4;
+  }
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #6882B6;
+  }
+  .transaction-table th{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+  .transaction-table td{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+  }
+  .transaction-table th, .transaction-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .service-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .phone-number {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .initiated {
+    color: orange;
+  }
+  
+  .successful {
+    color: green;
+  }
+  
+  .failed {
+    color: red;
+  }
+  
+  .action-button {
+    background-color: #EFF3FB;
+    color: #4169E1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: solid;
+  }
+  
